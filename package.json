@@ -1,0 +1,21 @@
+{
+  "name": "nevo-cli",
+  "version": "1.0.3",
+  "description": "Nevo CLI is a command-line tool designed to streamline your development workflow. Create projects effortlessly.",
+  "main": "index.js",
+  "bin": {
+    "nevo": "bin/cli.js"
+  },
+  "type": "module",
+  "keywords": ["cli", "command-line", "tool", "development", "generator", "workflow"],
+  "author": "Nestor Mosquera",
+  "license": "MIT",
+  "dependencies": {
+    "git-clone": "0.2.0",
+    "inquirer": "9.2.10",
+    "path": "0.12.7"
+  },
+  "devDependencies": {
+    "@types/inquirer": "9.0.3"
+  }
+}
